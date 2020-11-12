@@ -1,0 +1,58 @@
+.stack-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 30px 30px;
+}
+.SkillList_item {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 0.4rem;
+    background-color: #fff;
+    border: 1px solid #8bcdcd;
+    border-radius: 0.25rem;
+}
+
+code {
+    color: #3797a4;
+}
+
+p {
+    display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 900;
+    color: #333456;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+@media only screen and (min-width: 1200px) {
+  .stack-container {
+    width: 84%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .stack-container {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .stack-container {
+    margin-bottom: 2rem;
+  }
+}
