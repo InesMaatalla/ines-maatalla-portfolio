@@ -14,7 +14,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='http://www.inesmaatalla.com' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link to='https://www.inesmaatalla.com' className='navbar-logo' onClick={closeMobileMenu}>
             EXPLOR <i class='fas fa-angle-double-down' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
