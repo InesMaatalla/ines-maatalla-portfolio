@@ -32,7 +32,7 @@ const Stack = () => (
                     <code class="SkillList_item">Git</code>
                     <code class="SkillList_item">Heroku</code>
                     <code class="SkillList_item">Cloudinary</code>
-                    <code class="SkillList_item">Netfily</code>
+                    <code class="SkillList_item">Netlify</code>
                     <code class="SkillList_item">GitHub</code>
                 </div>
             </p>
