@@ -7,8 +7,6 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 
 
-
-
 function Footer() {
   return (
     <div className='footer-container'>
