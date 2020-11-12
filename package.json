@@ -1,7 +1,6 @@
-{
-  "name": "Ines Maatalla - Portfolio",
+  "name": "ines-maatalla-portfolio",
   "private": true,
-  "description": "Ines Maatalla - Web Developer.",
+  "description": "Ines Maatalla - Web Developer",
   "version": "0.1.0",
   "author": "Ines Maatalla <Ines.Maatalla@hotmail.fr>",
   "dependencies": {
