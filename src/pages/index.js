@@ -1,6 +1,6 @@
 import React from 'react'
 import Stacks from "../components/Stacks"
-import SEO from "../components/seo"
+import SEO from "../components/SEO"
 import HeroSection from "../components/HeroSection"
 import Projects from "../components/Projects"
 import Footer from "../components/Footer"
