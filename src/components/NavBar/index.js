@@ -17,8 +17,9 @@ function Navbar() {
           <Link to='https://www.inesmaatalla.com' className='navbar-logo' onClick={closeMobileMenu}>
             EXPLOR <i class='fas fa-angle-double-down' />
           </Link>
-          <div className='menu-icon' onClick={handleClick}>
+          <div className='menu-icon' onClick={handleClick} >
              <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous"></link>
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
