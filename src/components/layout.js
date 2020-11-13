@@ -1,17 +1,15 @@
-import React from "react"
+import React from 'react'
 import "./layout.css"
-import NavBar from "./NavBar"
+import Navbar from "./Navbar"
+
 
 const Layout = ({ children }) => {
-  
-
   return (
-    <>
-      <NavBar />
-        <main>{children}</main>
-       
-    </>
-  )
+    <div>
+      <Navbar/>
+      <main>{children}</main>
+    </div>
+  )   
 }
 
 export default Layout
