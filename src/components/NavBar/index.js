@@ -1,6 +1,6 @@
 import React, { useState} from 'react';
 import { Link } from 'gatsby';
-import './NavBar.css';
+import './navbar.css';
 
 
 function Navbar() {
