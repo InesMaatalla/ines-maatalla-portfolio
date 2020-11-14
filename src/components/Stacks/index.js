@@ -37,7 +37,7 @@ const Stack = () => (
                 </div>
             </p>
             <p class="alignright">
-                <p>INES</p>
+                <p>[INES]</p>
                 <p>Learned Full Stack Web Development at Le Wagon.
                     Looking for a position to assist me in developing, 
                     improving and obtaining the necessary skills in a challenging 
