@@ -13,7 +13,7 @@ function Projects() {
               src='images/ines.png'
               text='Explore my portfolio, designed on Figma and coded with Gatsby.'
               label='Portfolio'
-              path='http://www.inesmaatalla.com'
+              path='https://www.inesmaatalla.com'
             />
             <CardItem
               src='images/papelitos.png'

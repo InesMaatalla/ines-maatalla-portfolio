@@ -1,12 +1,18 @@
+.stack {
+align-items: center;
+
+}
+
 .stack-container {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
     max-width: 1120px;
     width: 90%;
     margin: 0 auto;
-    padding: 20px 30px 30px;
+    padding: 30px 5px 20px;
+    align-items: center;
+    position: sticky;
 }
+
+
 .SkillList_item {
     font-size: 0.875rem;
     margin-bottom: 0.5rem;
@@ -31,13 +37,12 @@ p {
     color: #333456;
 }
 
-.alignleft {
-	float: left;
+.alignright {
+  margin-left: 50px;
+  
 }
 
-.alignright {
-	float: right;
-}
+
 
 @media only screen and (min-width: 1200px) {
   .stack-container {

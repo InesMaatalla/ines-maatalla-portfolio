@@ -2,9 +2,9 @@ import React from "react"
 import "./Stacks.css"
 
 const Stack = () => (
-    <div className="stack-container">
+    <div className="stack">
         <h1>[Stacks]</h1>
-        <div>
+        <div className="stack-container">
             <p class="alignleft">
                 
                 <p>Front End Development</p>
