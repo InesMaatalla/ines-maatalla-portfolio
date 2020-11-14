@@ -1,10 +1,10 @@
 import React from 'react'
-import Stacks from "../components/Stacks"
+import Stacks from "../components/stacks"
 import SEO from "../components/seo"
-import HeroSection from "../components/HeroSection"
-import Projects from "../components/Projects"
+import HeroSection from "../components/herosection"
+import Projects from "../components/projects"
 import Layout from "../components/layout"
-import Footer from "../components/Footer"
+import Footer from "../components/footer"
 
 
 const IndexPage = () => (
