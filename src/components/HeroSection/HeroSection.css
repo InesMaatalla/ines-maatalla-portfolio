@@ -10,31 +10,12 @@
     object-fit: contain;
     margin-top: -80px;
   }
-  
-  /* .hero-container > h1 {
-    color: #fff;
-    font-size: 100px;
-    margin-top: 0px;
-  }
-  
-  .hero-container > p {
-    margin-top: 8px;
-    color: #fff;
-    font-size: 32px;
-  } */
+
   
   @media screen and (max-width: 960px) {
-    .hero-container > h1 {
-      font-size: 70px;
-    }
+    
   }
   
   @media screen and (max-width: 768px) {
-    .hero-container > h1 {
-      font-size: 60px;
-    }
-  
-    .hero-container > p {
-      font-size: 30px;
-    }
+   
   }
