@@ -1,5 +1,3 @@
-// import React from 'react'
-// import "./layout.css"
 import PropTypes from "prop-types"
 import React from "react"
 import Footer from "./Footer"
@@ -15,10 +13,6 @@ const Layout = ({ children }) => {
     </div>
   )   
 }
-
-// export default Layout
-
-
 
 
 Layout.propTypes = {

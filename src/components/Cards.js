@@ -1,6 +1,9 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
+import Portfolio from "../images/portfolio.png"
+import Papelitos from "../images/papelitos.png"
+import Partybus from "../images/partybus.png"
 
 function Cards() {
   return (
@@ -10,13 +13,13 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/portfolio.png'
+              src={Portfolio}
               text='Explore my portfolio, designed on Figma and coded with Gatsby.'
               label='Portfolio'
               path='https://www.inesmaatalla.com'
             />
             <CardItem
-              src='images/papelitos.png'
+              src={Papelitos}
               text='A multiplayer app that will manage everybody’s papelitos: team delegation, score, timer and rounds.'
               label='Papelitos'
               path='http://www.papelitos.fun/users/sign_in'
@@ -24,7 +27,7 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/partybus.png'
+              src={Partybus}
               text='Coded a clone of Airbnb. Using the worflow Heroku.'
               label='Airbnb clone'
               path='https://airbnb-clone-partybus.herokuapp.com'

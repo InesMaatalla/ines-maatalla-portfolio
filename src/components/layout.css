@@ -7,8 +7,8 @@
   font-family: 'Patrick Hand', cursive;
 }
 
-.stack {
-  text-align: center;
+/* .stack {
+  text-align: left;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -17,4 +17,5 @@
   align-items: center;
   object-fit: contain;
   margin-top: -80px;
-}
+  margin-bottom: -90px;
+} */
