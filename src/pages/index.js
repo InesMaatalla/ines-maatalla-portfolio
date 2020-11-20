@@ -1,20 +1,23 @@
-import React from 'react'
-import Stacks from "../components/Stacks"
-import SEO from "../components/seo"
-import HeroSection from "../components/HeroSection"
-import Projects from "../components/Projects"
-import Layout from "../components/layout"
-import Footer from "../components/Footer"
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import App from './App';
 
+// ReactDOM.render(<App />, document.getElementById('root'));
+
+import React from "react"
+import HeroSection from "../components/HeroSection"
+import Cards from "../components/Cards"
+import Stack from "../components/Stack"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 const IndexPage = () => (
-    <Layout>
-     <SEO title="Home" />
-        <HeroSection></HeroSection>
-        <Projects/>
-        <Stacks/>
-        <Footer/>
-    </Layout>
+  <Layout>
+    <SEO title="Home Page" />
+    <HeroSection />
+    <Cards />
+    <Stack/>
+  </Layout>
 )
 
 export default IndexPage
