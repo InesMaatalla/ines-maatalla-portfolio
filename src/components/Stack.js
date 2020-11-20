@@ -1,5 +1,5 @@
 import React from "react"
-import "./Stacks.css"
+import "./Stack.css"
 
 const Stack = () => (
     <div className="stack">

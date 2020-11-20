@@ -1,8 +1,8 @@
 import React from 'react';
-import './Projects.css';
+import './Cards.css';
 import CardItem from './CardItem';
 
-function Projects() {
+function Cards() {
   return (
     <div className='cards'>
       <h1>[Projects]</h1>
@@ -10,7 +10,7 @@ function Projects() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/ines.png'
+              src='images/portfolio.png'
               text='Explore my portfolio, designed on Figma and coded with Gatsby.'
               label='Portfolio'
               path='https://www.inesmaatalla.com'
@@ -36,4 +36,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Cards;

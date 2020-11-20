@@ -4,7 +4,6 @@ import './NavBar.css';
 import { IconContext } from 'react-icons/lib';
 
 
-
 function Navbar() {
   const [click, setClick] = useState(false);
 
@@ -12,11 +11,12 @@ function Navbar() {
   const handleKeyDown = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
+
   return (
     <IconContext.Provider value={{ color: '#fff' }}>
       <nav className='navbar'>
         <div className='navbar-container container'>
-          <Link to='https://www.inesmaatalla.com' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             EXPLOR <i class='fas fa-angle-double-down' />
           </Link>
           <div role="button" tabIndex={0} className='menu-icon'  onClick={handleClick} onKeyDown={handleKeyDown}>
@@ -50,7 +50,7 @@ function Navbar() {
           </ul>
         </div>
       </nav>
-    </IconContext.Provider>  
+    </IconContext.Provider> 
   );
 }
 
