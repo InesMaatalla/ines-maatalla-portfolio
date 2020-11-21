@@ -4,6 +4,7 @@ import Footer from "./Footer"
 import "./layout.css"
 import NavBar from "./NavBar"
 
+
 const Layout = ({ children }) => {
   return (
     <div>
@@ -13,7 +14,6 @@ const Layout = ({ children }) => {
     </div>
   )   
 }
-
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
