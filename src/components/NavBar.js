@@ -11,13 +11,12 @@ function Navbar() {
   const handleKeyDown = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-
   return (
     <IconContext.Provider value={{ color: '#fff' }}>
       <nav className='navbar'>
         <div className='navbar-container container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            EXPLOR <i class='fas fa-angle-double-down' />
+            EXPLORE <i class='fas fa-angle-double-down' />
           </Link>
           <div role="button" tabIndex={0} className='menu-icon'  onClick={handleClick} onKeyDown={handleKeyDown}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -31,11 +30,11 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/Projects'
+                to='/About'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                #Projects
+                #About
               </Link>
             </li>
             <li className='nav-item'>
@@ -45,6 +44,15 @@ function Navbar() {
                 onClick={closeMobileMenu}
               >
                 #Stacks
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/Projects'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                #Projects
               </Link>
             </li>
           </ul>
