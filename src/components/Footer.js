@@ -14,10 +14,10 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              EXPLOR <i class='fas fa-angle-double-down' />
+              EXPLORE <i class='fas fa-angle-double-down' />
             </Link>
           </div>
-          <small class='website-rights'>EXPLOR © 2020 Ines Maatalla </small>
+          <small class='website-rights'>EXPLORE © 2020 Ines Maatalla </small>
           <div class='social-icons'>
             <Link
               class='social-icon-link mail'
