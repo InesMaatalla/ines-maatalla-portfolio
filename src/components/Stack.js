@@ -46,7 +46,7 @@ const Stack = () => {
                     <div className="stack">
                         <FcApproval className="icon-1"/>
                         <h3>Back End Development</h3>
-                        <p>Ruby, Rails, Git, GutHub, Heroku, Cloudinary, Netlify</p>
+                        <p>Ruby, Rails, Git, GitHub, Heroku, Cloudinary, Netlify</p>
                     </div>
                     <div className="stack">
                         <FcSearch className="icon-2"/>
