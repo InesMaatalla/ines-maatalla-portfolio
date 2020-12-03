@@ -21,7 +21,7 @@ function Footer() {
           <div class='social-icons'>
             <Link
               class='social-icon-link mail'
-              to='Ines.Maatalla@hotmail.fr'
+              to='mailto:Ines.Maatalla@hotmail.fr'
               target='_blank'
               aria-label='Mail'
             >

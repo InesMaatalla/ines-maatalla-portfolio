@@ -4,6 +4,7 @@ import CardItem from './CardItem';
 import Portfolio from "../images/portfolio.png"
 import Papelitos from "../images/papelitos.png"
 import Partybus from "../images/partybus.png"
+import MonsterRolodex from "../images/monster-rolodex.png"
 
 
 function Cards() {
@@ -13,6 +14,12 @@ function Cards() {
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
+             <CardItem
+              src={MonsterRolodex}
+              text='Search monsters with React. Try it !'
+              label='Monsters Rolodex'
+              path='https://inesmaatalla.github.io/monster-rolodex/'
+            />
             <CardItem
               src={Portfolio}
               text='Explore my portfolio, designed on Figma and coded with Gatsby.'
@@ -21,7 +28,7 @@ function Cards() {
             />
             <CardItem
               src={Papelitos}
-              text='A multiplayer app that will manage everybody’s papelitos: team delegation, score, timer and rounds.'
+              text='A multiplayer app that will manage everybody’s papelitos: team delegation, score, timer and rounds. Using Ruby on Rails.'
               label='Papelitos'
               path='http://www.papelitos.fun/users/sign_in'
             />
@@ -29,8 +36,8 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src={Partybus}
-              text='Coded a clone of Airbnb. Using the worflow Heroku.'
-              label='Airbnb clone'
+              text='Coded a clone of Airbnb. Using Ruby on Rails and the worflow Heroku.'
+              label='Partybus'
               path='https://airbnb-clone-partybus.herokuapp.com'
             />
           </ul>
