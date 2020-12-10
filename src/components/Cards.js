@@ -17,7 +17,7 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src={CrownClothing}
-              text='Builded an E-commerce app with React Redux, Hooks, GraphQL, ContextAPI, Stripe and Firebase.'
+              text='Builded an E-commerce app with React, Redux, Hooks, GraphQL, ContextAPI, Stripe and Firebase.'
               label='CRWN Clothing'
               path=''
             />
