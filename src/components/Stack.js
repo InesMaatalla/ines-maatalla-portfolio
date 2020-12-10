@@ -41,12 +41,22 @@ const Stack = () => {
                     <div className="stack">
                         <FcApproval className="icon-1"/>
                         <h3>Front End Development</h3>
-                        <p>HTML5, CSS3, Javascript, SASS, Bootstrap, Figma, Gatsby</p>
+                        <p>HTML5, CSS3, Javascript, SASS, Bootstrap, Figma, Gatsby, React, Redux</p>
                     </div>
                     <div className="stack">
                         <FcApproval className="icon-1"/>
                         <h3>Back End Development</h3>
-                        <p>Ruby, Rails, Git, GitHub, Heroku, Cloudinary, Netlify</p>
+                        <p>Ruby on Rails, Node.js, GraphQL, PostgreSQL, Cloudinary, Firebase </p>
+                    </div>
+                    <div className="stack">
+                        <FcApproval className="icon-1"/>
+                        <h3>API</h3>
+                        <p>Stripe, ContextAPI</p>
+                    </div>
+                    <div className="stack">
+                        <FcApproval className="icon-1"/>
+                        <h3>Other tools</h3>
+                        <p>Git, GitHub, Heroku, Netlify</p>
                     </div>
                     <div className="stack">
                         <FcSearch className="icon-2"/>

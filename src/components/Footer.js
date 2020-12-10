@@ -17,7 +17,7 @@ function Footer() {
               EXPLORE <i class='fas fa-angle-double-down' />
             </Link>
           </div>
-          <small class='website-rights'>EXPLORE © 2020 Ines Maatalla </small>
+          <small class='website-rights'>COPYRIGHT {new Date().getFullYear()} © INES MAATALLA </small>
           <div class='social-icons'>
             <Link
               class='social-icon-link mail'

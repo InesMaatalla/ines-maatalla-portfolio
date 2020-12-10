@@ -29,7 +29,7 @@ const About = () => {
     return (
         <div className="about-container">
             <p className="title-1">[About]</p>
-            <p className="desc-1">Const Ines = () =></p>
+            <p className="desc-1">export const Ines = styled.div</p>
             <div className="wrapper">
             {AboutData.map((item, index)=> {
                 return (
