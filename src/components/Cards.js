@@ -5,6 +5,7 @@ import Portfolio from "../images/portfolio.png"
 import Papelitos from "../images/papelitos.png"
 import Partybus from "../images/partybus.png"
 import MonsterRolodex from "../images/monster-rolodex.png"
+import CrownClothing from "../images/crown-clothing.png"
 
 
 function Cards() {
@@ -14,12 +15,20 @@ function Cards() {
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
-             <CardItem
+            <CardItem
+              src={CrownClothing}
+              text='Builded an E-commerce app with React Redux, Hooks, GraphQL, ContextAPI, Stripe and Firebase.'
+              label='CRWN Clothing'
+              path=''
+            />
+            <CardItem
               src={MonsterRolodex}
               text='Search monsters with React. Try it !'
               label='Monsters Rolodex'
               path='https://inesmaatalla.github.io/monster-rolodex/'
             />
+            </ul>  
+            <ul className='cards__items'>
             <CardItem
               src={Portfolio}
               text='Explore my portfolio, designed on Figma and coded with Gatsby.'
@@ -32,8 +41,6 @@ function Cards() {
               label='Papelitos'
               path='http://www.papelitos.fun/users/sign_in'
             />
-          </ul>
-          <ul className='cards__items'>
             <CardItem
               src={Partybus}
               text='Coded a clone of Airbnb. Using Ruby on Rails and the worflow Heroku.'
