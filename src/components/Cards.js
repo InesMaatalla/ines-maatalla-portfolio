@@ -19,7 +19,7 @@ function Cards() {
               src={CrownClothing}
               text='Builded an E-commerce app with React, Redux, Hooks, GraphQL, ContextAPI, Stripe and Firebase.'
               label='CRWN Clothing'
-              path=''
+              path='https://king-ecommerce.herokuapp.com/'
             />
             <CardItem
               src={MonsterRolodex}
