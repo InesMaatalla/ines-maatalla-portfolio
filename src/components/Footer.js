@@ -2,9 +2,10 @@ import React from 'react';
 import './Footer.css';
 import { Link } from 'gatsby';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faInstagram, faLinkedin, faYoutube} from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+
 
 
 function Footer() {
@@ -25,7 +26,7 @@ function Footer() {
               target='_blank'
               aria-label='Mail'
             >
-            <FontAwesomeIcon icon={faEnvelopeSquare} />
+              <FontAwesomeIcon icon={faEnvelope} />
             </Link>
             <Link
               class='social-icon-link github'
@@ -33,16 +34,32 @@ function Footer() {
               target='_blank'
               aria-label='GitHub'
             >
-            <FontAwesomeIcon icon={faGithubSquare} />
+              <FontAwesomeIcon icon={faGithub} />
             </Link>
             <Link
             class='social-icon-link linkedin'
             to='https://www.linkedin.com/in/ines-maatalla/'
             target='_blank'
             aria-label='Linkedin'
-          >
-          <FontAwesomeIcon icon={faLinkedin} />
-          </Link>
+            >
+              <FontAwesomeIcon icon={faLinkedin} />
+            </Link>
+            <Link
+            class='social-icon-link instagram'
+            to='https://www.instagram.com/inesrobat/'
+            target='_blank'
+            aria-label='Instagram'
+            >
+              <FontAwesomeIcon icon={faInstagram} />
+            </Link> 
+            <Link
+            class='social-icon-link youtube'
+            to='https://www.youtube.com/channel/UCfb7AoH-CUfOUI9zsFZiMRA/featured'
+            target='_blank'
+            aria-label='Youtube'
+            >
+              <FontAwesomeIcon icon={faYoutube} />
+            </Link> 
           </div>
         </div>
       </section>

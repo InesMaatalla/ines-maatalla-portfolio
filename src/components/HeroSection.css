@@ -15,8 +15,8 @@
 
   .my-name {
     font-family: 'Herr Von Muellerhoff', cursive;
-    margin-bottom: -45rem;
-    margin-left: 85rem;
+    margin-top: auto;
+    margin-left: auto;
   }
   
   @media screen and (max-width: 960px) {
