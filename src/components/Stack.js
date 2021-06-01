@@ -41,7 +41,20 @@ const Stack = () => {
                     <div className="stack">
                         <FcSearch className="icon-2"/>
                         <h3>//Ines</h3>
-                        <p>Learned Full Stack Web Development at Le Wagon.
+                        <br></br>
+                        <p className="para">Actually, doing a BAC+4 as a Designer and Developer of Applications 
+                            at ENI Informatique in France. Assisting some courses as
+                            Java, PHP, C#, Oracle, Eclipse, Wordpress, SQLServer, Symfony,
+                            Ionic, Hibernate, Tomcat, Android, Xamarin, ASP, UML, WAMP Server,
+                            Spring, JPA, Swing, SCRUM, CDM. 
+                        </p>
+                        <br></br>
+                        <p className="para"> Learned Full Stack Web Development at Le Wagon : 
+                            CSS, HTML, Javascript, Bootstrap, JQuery, MySQL,
+                            Git, GitHub, Heroku, Figma, Ruby on Rails.
+                        </p>
+                        <br></br>
+                        <p className="para">
                             Looking for a position to assist me in developing, 
                             improving and obtaining the necessary skills in a challenging 
                             and creative environment that utilizes team work 
@@ -54,36 +67,53 @@ const Stack = () => {
                     <Images key={key} fluid={image.node.childImageSharp.fluid} className="photo" />
                 ))}
                 </div>
+                
+                <div className="stack">
+                    <FcApproval className="icon-1"/>
+                    <h3>Programing Languages</h3>
+                    <p> Ruby on Rails, Java, PHP, C#, ASP</p>
+                </div>
                 <div className="stack">
                         <FcApproval className="icon-1"/>
-                        <h3>Front End Development</h3>
-                        <p>HTML5, CSS3, Javascript, SASS </p>
+                        <h3>Web Development</h3>
+                        <p>HTML, CSS, Javascript</p>
                     </div>
-                    <div className="stack">
+                <div className="stack">
                         <FcApproval className="icon-1"/>
-                        <h3>Back End Development</h3>
-                        <p>Ruby on Rails, Java, PHP, C#</p>
+                        <h3>Frameworks / Platforms</h3>
+                        <p>React, Tomcat, Symfony, JQuery, Bootstrap, Spring, JPA, Hibernate, Xamarin, Ionic, Swing, Stripe, ContextAPI, Cloudinary</p>
                     </div>
-                    <div className="stack">
+                <div className="stack">
                         <FcApproval className="icon-1"/>
-                        <h3>Frameworks</h3>
-                        <p>Rails, Symfony, Bootstrap, React JS, Angular, Ionic, Spring, Hibernate</p>
+                        <h3>DataBases</h3>
+                        <p>GraphQL, PostgreSQL, SQL Server, Oracle, MySQL, Firebase, Oracle</p>
                     </div>
-                    <div className="stack">
+                <div className="stack">
                         <FcApproval className="icon-1"/>
-                        <h3>DataBase</h3>
-                        <p>GraphQL, PostgreSQL, SQL Server, Oracle, MySQL, Firebase</p>
+                        <h3>Softwares</h3>
+                        <p>Sublime text, Visual Studio Code, GitHub, Git, Gatsby, Figma, Heroku, Netlify, Eclipse, Wordpress</p>
                     </div>
-                    <div className="stack">
+                <div className="stack">
                         <FcApproval className="icon-1"/>
-                        <h3>API</h3>
-                        <p>Stripe, ContextAPI, Cloudinary, JPA</p>
+                        <h3>Operating System</h3>
+                        <p>Mac, Windows, Android</p>
                     </div>
-                    <div className="stack">
+                <div className="stack">
+                    <FcApproval className="icon-1"/>
+                    <h3>Realisation</h3>
+                    <p> Event organization website: PHP, Symfony, Javascript, MySQL, WAMP Server</p>
+                    <p> Auction website : Java EE, SQLServer, Tomcat</p>
+                    <p> E-commerce app : with Udemy to learn React</p>
+                    <p> Portfolio : Gatsby, React, Netlify </p>
+                    <p> Papelitos : UI / UX Design, Ruby on Rails</p>
+                    <p> Airbnb clone : Ruby on Rails, Heroku</p>
+            </div>
+                <div className="stack">
                         <FcApproval className="icon-1"/>
-                        <h3>Other tools</h3>
-                        <p>Git, GitHub, Heroku, Netlify, Figma, Gatsby, </p>
+                        <h3>Modelisation</h3>
+                        <p>UI / UX Design, Video Editing (GoPro)</p>
                     </div>
+                
             </div>
         </div>
     )

@@ -26,28 +26,29 @@
 .content-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  
 }
 
 .column-one {
   display: grid;
-  grid-template-rows: 1fr 1fr;
 }
+
 
 .stack {
   padding-top: 1rem;
   padding-right: 2rem;
   padding-left: 1rem;
   margin-bottom: 20px;
+}
 
-  h3 {
-    margin-bottom: 0.5rem;
-    font-size: 1.5rem;
-    font-style: italic;
-  }
-  
-  p {
-    color: #3b3b3b;
-  }
+h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+p {
+  color: #3b3b3b;
 }
 
 .column-two {
@@ -55,7 +56,9 @@
   grid-template-columns: 1fr 1fr;
   margin-top: 2rem;
   grid-gap: 10px;
+  
 }
+
 
 .photo {
   border-radius: 10px;

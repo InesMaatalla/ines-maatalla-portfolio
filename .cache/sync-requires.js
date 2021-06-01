@@ -10,7 +10,6 @@ exports.components = {
   "component---src-pages-about-js": hot(preferDefault(require("/Users/inesmaatalla/ines-maatalla-portfolio/src/pages/About.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/Users/inesmaatalla/ines-maatalla-portfolio/src/pages/index.js"))),
   "component---src-pages-projects-js": hot(preferDefault(require("/Users/inesmaatalla/ines-maatalla-portfolio/src/pages/Projects.js"))),
-  "component---src-pages-stacks-js": hot(preferDefault(require("/Users/inesmaatalla/ines-maatalla-portfolio/src/pages/Stacks.js"))),
-  "component---src-pages-videos-js": hot(preferDefault(require("/Users/inesmaatalla/ines-maatalla-portfolio/src/pages/Videos.js")))
+  "component---src-pages-stacks-js": hot(preferDefault(require("/Users/inesmaatalla/ines-maatalla-portfolio/src/pages/Stacks.js")))
 }
 

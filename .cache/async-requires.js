@@ -7,7 +7,6 @@ exports.components = {
   "component---src-pages-about-js": () => import("./../../../src/pages/About.js" /* webpackChunkName: "component---src-pages-about-js" */),
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-projects-js": () => import("./../../../src/pages/Projects.js" /* webpackChunkName: "component---src-pages-projects-js" */),
-  "component---src-pages-stacks-js": () => import("./../../../src/pages/Stacks.js" /* webpackChunkName: "component---src-pages-stacks-js" */),
-  "component---src-pages-videos-js": () => import("./../../../src/pages/Videos.js" /* webpackChunkName: "component---src-pages-videos-js" */)
+  "component---src-pages-stacks-js": () => import("./../../../src/pages/Stacks.js" /* webpackChunkName: "component---src-pages-stacks-js" */)
 }
 
