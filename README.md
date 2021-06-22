@@ -1,4 +1,4 @@
 Ines Maatalla - Portfolio - [www.inesmaatalla.com](https://www.inesmaatalla.com)
 
 
-![accueil](https://github.com/InesMaatalla/ines-maatalla-portfolio/master/src/images/website.png)
+![website](https://github.com/InesMaatalla/ines-maatalla-portfolio/blob/master/src/images/website.png)
