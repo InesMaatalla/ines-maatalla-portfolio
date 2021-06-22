@@ -1,0 +1,99 @@
+.about {
+    text-align: center;
+    background: url("../../images/inesphoto.jpeg") center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    margin-top: -80px;  
+  }
+
+.about-container {
+    background: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1120px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.title-1{
+    color: #37c8ca;
+    font-size: 2rem;
+    padding-left: 1rem;
+    margin-bottom: 0.75rem;
+    margin-top: 2rem;
+}
+
+.desc-1 {
+    text-align: start;
+    padding-left: 1rem;
+    font-size: clamp(1.5rem, 4vw, 1rem);
+    font-weight: bold;
+    color: #3b3b3b;
+}
+
+.about > h1 {
+    color: black;
+    font-size: 10px;
+    text-align: right;
+    margin-top: auto;
+    padding: 10px;
+    
+  }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 20px 0 45px;
+}
+
+.about-box {
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+}
+
+.icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.title {
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+    font-style: italic;
+    color: #000;
+}
+
+.icon-1 {
+    font-size: 2rem; 
+}
+
+.icon-2 {
+    font-size: 2rem;
+}
+
+.icon-3 {
+    font-size: 2rem;
+}
+
+.icon-4 {
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        grid-template-columns: 1fr;
+       
+    }
+}
+@media screen and (max-width: 500px) {
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+}

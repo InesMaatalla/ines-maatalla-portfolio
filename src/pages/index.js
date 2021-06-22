@@ -1,19 +1,15 @@
 import React from "react"
-import HeroSection from "../components/HeroSection"
-import Cards from "../components/Cards"
-import Stack from "../components/Stack"
-import Aboutme from "../components/Aboutme"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-
+import Layout from "../components/Layout/layout"
+import SEO from "../components/SEO/seo"
+import HeroSection from "../components/HeroSection/HeroSection"
+import Image from "../components/Image/Image"
+import "../components/Image/Image.css"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home Page" />
+    <SEO title="Ines Maatalla - Home Page" />
     <HeroSection />
-    <Aboutme/>
-    <Stack/>
-    <Cards />
+    <Image/>
   </Layout>
 )
 
