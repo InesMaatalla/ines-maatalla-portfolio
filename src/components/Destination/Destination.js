@@ -1,9 +1,10 @@
-import React, { useState} from 'react';
-import './Destination.css';
+import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby'
-import Images from "gatsby-image"
-import { Button } from "../Button/ButtonDestination"
+import Images from "gatsby-image";
 import { Link } from 'gatsby';
+import './Destination.css';
+import { Button } from "../Button/ButtonDestination"
+
 
 
 
@@ -30,12 +31,8 @@ function Destination() {
                 }
             }
         }
-    `)
-
-    const [setClick] = useState(false);
-
+    `)  
   
-  const closeMobileMenu = () => setClick(false);
   return (
     <div>
       <div className="destinations">
@@ -56,7 +53,7 @@ function Destination() {
               <h1>Western Canada</h1>
                 <br></br>
                 <p>Drove 13 500 km to cross this huge country to discover gorgeous places. It’s a long ride but it’s worth it. Check my video !</p>
-                <Link to='/WesternCanada' className='nav-links' onClick={closeMobileMenu}>
+                <Link to='/WesternCanada' className='nav-links' >
                   <Button fontBig big primary>
                       See more
                   </Button>
