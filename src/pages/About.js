@@ -11,8 +11,7 @@ import Stack from "../components/Stack/Stack"
 
 const About = () => (
   <Layout>
-    <SEO title="About" />
-   
+    <SEO title = "About" />
     <Aboutme/>
     <Stack/>
     <Cards />
