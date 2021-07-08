@@ -17,8 +17,7 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              EXPLORE
-              <FaAngleDoubleDown className="logo" />
+            
             </Link>
           </div>
           <small class='website-rights'>COPYRIGHT {new Date().getFullYear()} © INES MAATALLA </small>
@@ -47,14 +46,6 @@ function Footer() {
             >
               <FontAwesomeIcon icon={faLinkedin} />
             </Link>
-            <Link
-            class='social-icon-link instagram'
-            to='https://www.instagram.com/inesrobat/'
-            target='_blank'
-            aria-label='Instagram'
-            >
-              <FontAwesomeIcon icon={faInstagram} />
-            </Link> 
             <Link
             class='social-icon-link youtube'
             to='https://www.youtube.com/channel/UCfb7AoH-CUfOUI9zsFZiMRA/featured'

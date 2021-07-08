@@ -8,7 +8,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
     margin-top: -80px;
     color: #fff;
@@ -76,10 +75,6 @@
 }
 
 @media screen and (max-width: 500px) {
-  .destination-photo {
-    
-  }
-  
   .destination-column-one {
     grid-template-columns: 1fr;
   }

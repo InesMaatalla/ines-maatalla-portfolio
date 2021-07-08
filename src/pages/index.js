@@ -8,7 +8,7 @@ import "../components/Image/Image.css"
 const IndexPage = () => (
   <Layout>
     <SEO title="Ines Maatalla - Home Page" />
-    <HeroSection />
+    <HeroSection/>
     <Image/>
   </Layout>
 )

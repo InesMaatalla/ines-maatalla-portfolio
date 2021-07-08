@@ -32,11 +32,10 @@ function Destination() {
             }
         }
     `)  
-  
+
   return (
     <div>
       <div className="destinations">
-        <p >Adventure. Culture. Memories.</p>
         <h1 >Destinations</h1>
       </div>
           
@@ -59,7 +58,9 @@ function Destination() {
                   </Button>
                 </Link>
             </div>
-          </div>   
+          </div>  
+        
+
         </div> 
       </div>
     </div>

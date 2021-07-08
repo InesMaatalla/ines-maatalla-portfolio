@@ -11,7 +11,6 @@ export const Nav = styled.nav`
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
-  position: sticky;
   top: 0;
   z-index: 10;
   @media screen and (max-width: 960px) {
@@ -41,8 +40,9 @@ export const NavLogo = styled(Link)`
   font-size: 1.5rem;
   display: flex;
   align-items: center;
-
 `
+
+
 export const FaAngleDoubleDown = styled(Link)`
   color: #1b9fa2;
   
@@ -80,7 +80,7 @@ export const NavMenu = styled.ul`
     top: 80px;
     top: ${({ click }) => (click ? "100%" : "-1000px")};
     transition: all 0.2s ease;
-    backdrop-filter: brightness(60%);
+    backdrop-filter: brightness(20%);
     opacity: 1;
     z-index: 1;
 
@@ -105,7 +105,7 @@ export const NavItem = styled.li`
 `
 
 export const NavLinks = styled(Link)`
-  color: #1b9fa2;
+  color: #000;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -121,7 +121,7 @@ export const NavLinks = styled(Link)`
     display: table;
     
     &:hover {
-      color: black;
+      color: white;
       transform: scale(1.2);
       transition: all 0.3s ease;
       

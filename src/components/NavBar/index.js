@@ -37,21 +37,20 @@ const NavBar = () => {
         <Nav active={scroll} click={click}>
           <NavbarContainer>
             <NavLogo to="/" onClick={closeMobileMenu}>
-              EXPLORE
-              <FaAngleDoubleDown style={{ fill: "#1b9fa2" }} />
+            
             </NavLogo>
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes style={{ fill: "#1b9fa2" }}/> : <FaBars style={{ fill: "#1b9fa2" }} />}
             </MobileIcon>
             <NavMenu onClick={handleClick} click={click}>
               <NavItem>
-                <NavLinks to="/">#Home</NavLinks>
+                <NavLinks to="/">Home</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/About">#About</NavLinks>
+                <NavLinks to="/About">About</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/Destinations">#Destinations</NavLinks>
+                <NavLinks to="/Destinations">Destinations</NavLinks>
               </NavItem>
             </NavMenu>
           </NavbarContainer>
